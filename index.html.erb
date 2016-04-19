@@ -1,0 +1,93 @@
+<div class="row">
+	<div class="jumbotron">
+	  <div class="container">
+	    <h1>High Speed Rail America Club</h1>
+	  </div>
+	</div>
+</div>
+
+<div class="row" id="vid">
+	<div class="col-md-12">
+		<div class="container">
+			<h1>High Speed Rail America Club</h1>
+		</div>
+	
+	</div>
+</div>
+
+<div class="container">
+	<div class="row" id="thumbnails">
+		<div class="col-xs-6 col-md-4">
+			<h2><%= link_to 'Research', "https://medium.com/high-speed-rail-america-club", target: "_blank" %></h2>
+			<a href="https://medium.com/high-speed-rail-america-club", target="_blank"><img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="/assets/research.png" data-holder-rendered="true" style="width: 200px; height: 200px;"></a>
+		</div>
+		<div class="col-xs-6 col-md-4">
+			<h2><%= link_to 'News', posts_path, target: "_blank" %></h2>
+			<a href="http://www.hsrac.com/posts", target="_blank"><img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="/assets/news.png" data-holder-rendered="true" style="width: 200px; height: 200px;">
+		</div></a>
+		<div class="col-xs-6 col-md-4">
+			<h2><%= link_to 'About Us', "https://www.kickstarter.com/projects/1682189695/the-american-train/description", target: "_blank" %></h2>
+			<a href="https://www.kickstarter.com/projects/1682189695/the-american-train/description", target="_blank"><img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="/assets/about.png" data-holder-rendered="true" style="width: 200px; height: 200px;"></a>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="embed-responsive embed-responsive-16by9">
+			  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cyON0VPE5BA"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row" id="feature-in">
+		<div class="col-md-2">
+			<h4>Featured in:</h4>
+		</div>
+		<div class="col-md-3" id="miaminewtimes">
+			<img src="/assets/miaminewtimes.png" class="img-responsive" atl="miaminewtimes" >
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" id="connect">
+				<h1>Connect</h1>
+			</div>
+			<div class="col-md-6">
+				<% if current_user %>
+					<h1><%= link_to 'Sign Out', destroy_user_session_path %></h1>
+				<% else %>
+					<h1><%= link_to 'Member Login', user_session_path %></h1>
+				<% end %>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1" id="twitter">
+				<a href="https://twitter.com/HSRAClub" target="_blank">
+					<img src="/assets/twitter.png" class="img-responsive" atl="twitter" >
+				</a>
+			</div>
+			<div class="col-md-1" id ="facebook">
+				<a href="https://www.facebook.com/groups/hsrac/" target="_blank">
+					<img src="/assets/facebook.png" class="img-responsive" atl="facebook" >
+				</a>
+			</div>
+			<div class="col-md-1" id ="youtube">
+				<a href="https://www.youtube.com/channel/UCpiBD6csbMlsEt20d_CmRCA" target="_blank">
+					<img src="/assets/youtube.png" class="img-responsive" atl="youtube" >
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="copyright">
+				©2015 High Speed Rail America, Inc
+   			</div>
+		</div>
+	</div>
+</footer>
