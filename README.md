@@ -1,5 +1,6 @@
 # High Speed Rail America (HSRAC) Homepage
 
-## This is a redesign of the HSRAC homepage
+## This is a redesign of the HSRAC homepage.
+It is in the repo.
 
- 
+There will also be a redesign of the pages in the nav bar.  
