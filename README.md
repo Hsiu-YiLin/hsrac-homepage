@@ -9,3 +9,4 @@ The backend of these pages are built with Ruby on Rails.
 
 The frontend are built with HTML, CSS, Javascript, Bootstrap.
 
+The header is the footer.
