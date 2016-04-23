@@ -8,9 +8,9 @@ There will also be a redesign of the pages in the nav bar.
 The backend of these pages are built with Ruby on Rails.
 
 The frontend are built with:
-    -HTML 
-    -CSS 
-    -Javascript 
-    -Bootstrap
+    - HTML 
+    - CSS 
+    - Javascript 
+    - Bootstrap
 
 The header is the footer.
