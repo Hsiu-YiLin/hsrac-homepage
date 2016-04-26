@@ -6,7 +6,7 @@ It is in the repo.
 There will also be a redesign of the pages in the nav bar.
 
 The backend of these pages are built with:
-- Ruby on Rails.
+- Ruby on Rails. Credits to (name)
 
 The frontend are built with:
 
@@ -14,3 +14,5 @@ The frontend are built with:
 - CSS 
 - Javascript 
 - Bootstrap
+
+
