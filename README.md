@@ -15,4 +15,5 @@ The frontend are built with:
 - Javascript 
 - Bootstrap
 
+Some of the images are not loaded because I do not have access to the AWS key.
 
